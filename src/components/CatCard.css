@@ -1,0 +1,49 @@
+.cardT{
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+    width: 210px;
+    margin-left: 30px;
+    width: 300px;
+
+}
+
+.pfp{
+    width: 200px;
+    align-self: center;
+    border-radius: 10px;
+    padding-top: 40px;
+}
+
+.username{
+    margin: auto;
+    font-size: 30px;
+}
+
+.phone-details, .mail-details{
+    display: flex;
+    align-content: space-around;
+    align-self: center;
+
+}
+
+.phone-logo, .mail-logo{
+    height: 15px;
+}
+
+
+.phoneNo, .mailID{
+    font-size: 15px;
+
+}
+
+.phone-details{
+    padding-top: 10px;
+}
+
+.mail-details{
+    padding-bottom: 10px;
+}
+
+

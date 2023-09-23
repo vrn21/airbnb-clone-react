@@ -2,13 +2,23 @@ import CatCard from './CatCard'
 import { CatData } from './../assets/TempData'
 import './PrettyCats.css';
 
-const PrettyCats = () => {
+const PrettyCats = (props) => {
     
     return(
         <div>
             <h1>Take a look at all the pretty cats available here</h1>
 
             <div className='catCards'>
+            {/* {
+                for (let i = 0;  i < props.n; i++) {
+                <CatCard 
+                pfp = {CatData[i]pfp} 
+                username = {CatData[i].username} 
+                phoneNumber = {CatData[i].phoneNumber} 
+                mailID = {CatData[i].mailID} 
+            />
+                
+            }} */}
                 <CatCard 
                     pfp = {CatData[0].pfp} 
                     username = {CatData[0].username} 

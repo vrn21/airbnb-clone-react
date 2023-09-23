@@ -1,0 +1,14 @@
+.body{
+    display: flex;
+    background-color: rgb(1, 87, 161);   
+}
+
+nav {
+    display: flex;
+    height: 70px;
+    background-color: rgb(255, 255, 255) ;
+    padding: 22px 30px;
+    filter: drop-shadow(0px 2.9825618267059326px 7.456404209136963px rgba(0, 0, 0, 0.10));
+
+}
+

@@ -1,0 +1,32 @@
+
+
+.card{
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.img{
+    height: 230px;
+    display:block;
+    border-radius: 20px;
+
+}
+
+.card-text{
+    margin-left: 0px;
+}
+
+.star{
+    color: red;
+}
+
+.courseName, .price{
+    margin-left: 0px;
+}
+
+.courseName{
+    max-width: 250px;
+}
+
+.noOfRatings, .country{
+    color: grey;
+}

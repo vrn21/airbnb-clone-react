@@ -1,0 +1,25 @@
+
+
+
+.hero{
+    display: flex;
+    flex-direction: column;
+}
+.hero-images{
+    display: flex;
+    margin-top: 50px;
+    justify-content:center;
+    padding-bottom: 50px;
+    
+}
+.houses{
+    height: 400px;
+    padding-left: 20px;
+    
+}
+
+div > h1,p {
+    margin-block: 0px;
+    margin-left: 50px;
+    font-family: Poppins;
+}

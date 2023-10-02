@@ -1,31 +1,44 @@
+import Data from '../assets/Data';
 import './Card.css';
 
+console.log(Data)
+
+const Card = () =>{
+    const eachCard = Data.map( (eachElement) => {
+        return(
+            <singleCard 
+                image = {eachElement.image}
+                rating = {eachElement.rating}
+                noOfRatings = {eachElement.noOfRatings}
+                country = {eachElement.country}
+                title = {eachElement.title}
+                price = {eachElement.price}
+
+            />
+        )
+    })
+
+    return (
+        <div>
+            {eachCard}
+        </div>
+    )
+}
 
 
-const Card = () => {
-    
-    const AI101 = {
-        "creator":"Tony stark",
-        "image" :"https://upload.wikimedia.org/wikipedia/en/f/f2/Robert_Downey_Jr._as_Tony_Stark_in_Avengers_Infinity_War.jpg" ,
-        "title":"Lets create an AI with Tony stark, the iron man",
-        "country": "USA",
-        "noOfRatings": 9,
-        "rating": 5.0,
-        "price": 69
-    }
-
+const singleCard = (props) => {
 
      return(
         <div className="card">
-            <img className="img" src={AI101.image} />
+            <img className="img" src={props.image} />
                 <div>
                     <span className="star" > * </span>
-                    <span className='rating'> {AI101.rating}  </span>
-                    <span className="noOfRatings"> ({AI101.noOfRatings})  | </span>
-                    <span className='country'> {AI101.country} </span>
+                    <span className='rating'> {props.rating}  </span>
+                    <span className="noOfRatings"> {props.noOfRatings}  | </span>
+                    <span className='country'> {props.country} </span>
                     </div>
-                    <p className='courseName'> {AI101.title}</p>
-                    <p className='price' ><strong>from {AI101.price}&#36;</strong> / person</p>
+                    <p className='courseName'> {props.title}</p>
+                    <p className='price' ><strong>from {props.price}&#36;</strong> / person</p>
                 
 
         </div>

@@ -12,7 +12,7 @@ export default function App() {
         <NavBar />
         <Hero />
         <Card />
-        <PrettyCats />
+        <PrettyCats n = {4} />
 
     </div>
   )

@@ -1,23 +1,27 @@
 
 
-.cards-div{
-    display: flex;
-    flex-direction: column;
+.card-div{
+  
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-radius: 10px;
     width: 210px;
     margin-left: 30px;
     width: 300px;
-
-    
+    display: flex;
+    justify-content: center;
 }
 
+.cards-div{
+    display: flex;
+    flex-direction: row;
+}
 
 
 .img{
     height: 230px;
     display:block;
     border-radius: 20px;
+
 
 }
 

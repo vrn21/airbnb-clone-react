@@ -1,4 +1,4 @@
-export default Data = [
+export default  [
     {   
         id: 1,
         creator:"Tony stark",
@@ -7,7 +7,8 @@ export default Data = [
         country: "USA",
         noOfRatings: 9,
         rating: 5.0,
-        price: 69
+        price: 69,
+        openSpots:0
     }
 ,
 {   
@@ -18,7 +19,8 @@ export default Data = [
     country: "Poland",
     noOfRatings: 69,
     rating: 5.1,
-    price: 73
+    price: 73,
+    openSpots:1
 }
 ,
 {   
@@ -29,7 +31,8 @@ export default Data = [
     country: "Uzbekisthan",
     noOfRatings: 0,
     rating: 2.69,
-    price: 1000
+    price: 1000,
+    openSpots:2
 }
 ,{   
     id: 4,
@@ -39,7 +42,8 @@ export default Data = [
     country: "India",
     noOfRatings: 100,
     rating: 10.0,
-    price: 1
+    price: 1,
+    openSpots:0
 }
 ,
 

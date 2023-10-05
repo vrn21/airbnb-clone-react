@@ -1,12 +1,19 @@
 
 
-.card{
-    margin-left: 30px;
-    margin-top: 50px;
-    padding-bottom: 50px;
+.cards-div{
+    display: flex;
+    flex-direction: column;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+    width: 210px;
+    margin-left: 30px;
+    width: 300px;
+
     
 }
+
+
+
 .img{
     height: 230px;
     display:block;
@@ -32,4 +39,8 @@
 
 .noOfRatings, .country{
     color: grey;
+}
+
+.card-badge{
+    position: relative;
 }

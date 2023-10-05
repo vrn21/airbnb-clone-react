@@ -1,6 +1,4 @@
 import "./CatCard.css"
-import {CatData} from '../assets/TempData.js'
-
 
 const CatCard = ({pfp,username,phoneNumber,mailID}) =>{
     

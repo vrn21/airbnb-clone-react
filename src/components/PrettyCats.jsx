@@ -1,8 +1,8 @@
 import CatCard from './CatCard'
 import { CatData } from './../assets/TempData'
-import './PrettyCats.css';
+import './PrettyCats.css'
 
-const PrettyCats = (props) => {
+const PrettyCats = () => {
 
     const cards = CatData.map((cat) =>{
         return(
